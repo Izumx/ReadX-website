@@ -65,16 +65,6 @@ gsapCards.forEach((card, idx) => {
   });
 });
 
-gsap.to("#text", {
-  duration: 4,
-  delay: 2,
-  scrambleText: {
-    text: "Smart minds stack books, not excuses.",
-    leftToright: true,
-    chars: "iloveweb"
-  }
-});
-
 const heroCards = document.querySelectorAll('.hero-cards .card');
 heroCards.forEach(card => {
   card.addEventListener('mouseenter', () => {
