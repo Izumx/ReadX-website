@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrambleTextPlugin);
+
 
 const gsapCards = document.querySelectorAll('.gsap-card');
 
